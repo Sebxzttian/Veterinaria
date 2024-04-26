@@ -1,0 +1,217 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #0b0a0a;
+    text-align: center;
+    padding: 55px 0;
+    background-image: url(../img/fon1.jpg) ;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-align: left ;
+    padding-left: 18px;
+}
+
+header h2 {
+    font-size: 80px;
+    margin: 5px 0 0;
+    font: weight 700px;;
+    color: #3d3b3b;
+    text-align: left ;
+    padding-left: 40px;
+}  
+
+nav {
+    background-color: green;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 27px;
+    color: #333;
+    display: inline-block;
+    border-right: 3px solid #ccc;
+    padding-right: 10px; 
+    margin-right: 10px; 
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #037514;
+  
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px; 
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.informacion-principal {
+    background-color: beige;
+    padding: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 10px;  
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.informacion-principal h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.informacion-principal p {
+    margin: 10px 0;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.informacion-principal a {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.informacion-principal img {
+    width: 200px;
+    height:200px;
+    border-radius: 20%;
+    border: solid 2px;
+    float:  right;
+     
+
+}
+
+.informacion-secundaria {
+    background-color: beige;
+    padding: 30px;
+    width: 50%; 
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacion-secundaria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: solid 2px;
+    float: right;
+}
+
+.informacion-secundaria h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.informacion-secundaria p {
+    margin: 10px 0;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.formulario-cita {
+    border: 1px solid #ccc; 
+    padding: 50px; 
+    float: right; 
+    width: 30%; 
+    height: 513px;
+    border-radius: 20px;
+    
+    background-color: green;
+}
+
+.formulario-cita h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:rgb(9, 86, 15);
+}
+
+.formulario-cita label {
+    display: block;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+
+.formulario-cita input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario-cita button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center; 
+    display: block; 
+    margin-left: 120px;
+    margin-top: 25px;
+    justify-content: center;
+    
+}
+
+.formulario-cita button:hover{
+    border-radius: 1px;
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
